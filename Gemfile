@@ -69,9 +69,10 @@ gem 'simple_form'
 gem 'devise'
 
 gem 'carrierwave', '~> 2.0'
-gem "figaro"
-gem "fog-aws"
-gem "mini_magick"
+gem 'figaro'
+gem 'fog-aws'
+gem 'mini_magick'
+gem 'carrierwave-aws'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
