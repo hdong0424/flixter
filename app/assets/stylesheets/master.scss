@@ -109,10 +109,41 @@ body {
 	font-weight: 100;
 	font-size: 25px;
 }
-.sections {
-	color: red;
+
+ul {
+  list-style-type: none;
 }
 
-.lessons {
-	color: blue;
+ul .header {
+	font-size: 25px;
+}
+
+ul .header .fa {
+	font-size: 20px;
+}
+
+.section-li {
+	border: 1px solid;
+	border-corlor: #e4e4e4 #bebebd #bebebd #e4e4e4;
+	padding: 20px;
+	margin: 20px;
+}
+
+.lessons li {
+  background: green;
+  color: white;
+  margin: 10px;
+  font-family: "Helvetica Neue", Helvetica;
+  font-weight: 100;
+  padding: 8px;
+  font-size: 15px;
+}
+
+.lessons li b {
+	font-size: 25px;
+	font-weight: 100;
+}
+
+.lessons li p {
+	margin: 0;
 }
